@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="org.dita-community.preprocess-tester">
+  
+  <!--
+      <target name="preprocess" depends="
+       gen-list,
+       debug-filter,
+       copy-files,
+       conrefpush,
+       conref,
+       move-meta-entries,
+       keyref,
+       coderef,
+       mapref,
+       mappull,
+       chunk,
+       maplink,
+       move-links,
+       topicpull,
+       flag-module" 
+       description="Preprocessing ended"/>
+-->
+  
+  <target name="dita2preprocess-test"
+    depends="build-init, 
+    gen-list,
+                debug-filter,
+                copy-files,
+                conrefpush,
+                conref,
+                move-meta-entries,
+                keyref,
+                coderef,
+                mapref,
+                mappull,
+                dc-adjust-copy-to"
+  
+  />
+  
+</project>

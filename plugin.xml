@@ -1,0 +1,14 @@
+<plugin id="org.dita-community.preprocess-tester">
+  <!-- 
+    
+    Enables easy testing and evaluation of the preprocessing
+    stages.
+    -->
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="ekimber@contrext.com"/>    
+  
+  
+  <feature extension="dita.conductor.transtype.check" value="preprocess-test" type="txt"/>
+  <feature extension="dita.conductor.target.relative" file="build.xml"/>
+  
+</plugin>
