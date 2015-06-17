@@ -24,16 +24,21 @@
   <target name="dita2preprocess-test"
     depends="build-init, 
     gen-list,
-                debug-filter,
-                copy-files,
-                conrefpush,
-                conref,
-                move-meta-entries,
-                keyref,
-                coderef,
-                mapref,
-                mappull,
-                dc-adjust-copy-to"
+    debug-filter,
+    copy-files,
+    conrefpush,
+    conref,
+    move-meta-entries,
+    keyref,
+    coderef,
+    mapref,
+    mappull,
+    chunk,
+   maplink,
+   move-links,
+   topicpull,
+   flag-module
+   "
   
   />
   
